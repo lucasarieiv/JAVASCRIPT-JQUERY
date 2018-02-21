@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript &amp; jQuery - Chapter 2: Basic JavaScript Instructions - Example</title>
+    <style media="screen">
+      body {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        background-image: url('https://i.pinimg.com/originals/b0/8f/cf/b08fcfdcd1e5b021bc34424384f313e8.jpg');
+        background-repeat: repeat;
+      }
+      h1 {
+        color: #fff;
+        font-family: cursive;
+        font-weight: 300;
+        font-size: 48px;
+        text-align: center;
+      }
+      div#content {
+        margin: 0 auto;
+        background: #fff;
+        width: 700px;
+        height: 250px;
+        border: 8px double #000;
+      }
+      div.message {
+        margin: 20px 0px 10px 0px;
+      }
+      table {
+        margin: 0 auto;
+        /* background-color: #d1d1d1; */
+        padding: 10px;
+      }
+
+      table td.tl {
+        font-family: Arial, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: left;
+      }
+      table td {
+        font-family: Arial, Verdana, sans-serif;
+        text-align: left;
+        padding-left: 20px;
+      }
+      a {
+        font-family: Arial, Verdana, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        float: right;
+        margin-right: 20px;
+        background-color: red;
+        text-decoration: none;
+        padding: 5px 20px 5px 20px;
+      }
+      div.message {
+        font-family: Arial, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Elder Flower</h1>
+    <div id="content">
+      <div id="greeting" class='message'>Hello!</div>
+      <table>
+        <tr>
+          <td class='tl'>Custom Sign: </td>
+          <td id='userSign'></td>
+        </tr>
+        <tr>
+          <td class='tl'>Total tiles: </td>
+          <td id='tiles'></td>
+        </tr>
+        <tr>
+          <td class='tl'>Subtotal: </td>
+          <td id='subTotal'></td>
+        </tr>
+        <tr>
+          <td class='tl'>Shipping: </td>
+          <td id='shipping'>$</td>
+        </tr>
+        <tr>
+          <td class='tl'>Grand Total: </td>
+          <td id='grandTotal'>$ </td>
+        </tr>
+      </table>
+      <a href="#" class='action'>Pay Now</a>
+    </div>
+    <script src="js/example.js"></script>
+  </body>
+</html>
