@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GET ELEMENT BY ID</title>
+    <style media="screen">
+      body {
+        margin: 0 auto;
+        width: 960px;
+        background-color: #8C130D;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: Arial, Verdana, Helvetica;
+        font-size: 68px;
+        color: #fff;
+        width: 350px;
+        margin: 0 auto;
+        padding: 0px;
+        text-transform: uppercase;
+      }
+
+      div.box {
+        background-color: #561310;
+        width: 500px;
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 32px;
+      }
+
+      div.box ul {
+        box-sizing: border-box;
+        list-style: none;
+      }
+      div.box ul li {
+        font-size: 28px;
+        color: white;
+        border-bottom: 5px dotted #000;
+        margin: 10px 0px;
+        padding: 10px 0px;
+        position: relative;
+      }
+
+      div.box ul li .number {
+        position: absolute;
+        font-size: 18px;
+        right: 10px;
+        bottom: 0;
+        font-family: Arial;
+      }
+
+      .cool {
+        background-color: #FD4E4E;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id='header'>Canabrava</h1>
+    <h2>Cadápio</h2>
+    <div class="box">
+    <ul>
+      <li id='one' class='hot'><em>Bife</em> Acebolado<span class='number'>R$ 45,00</span></li>
+      <li id='two' class='hot'>Carne de Sol<span class='number'>R$ 25,00</span></li>
+      <li id='three' class='hot'>Maminha<span class='number'>R$ 110,00</span></li>
+      <li id='four' class='hot'>Picanha<span class='number'>R$ 10,00</span></li>
+    </ul>
+    </div>
+  <script src='js/get-element-by-id.js'></script>
+  </body>
+</html>
