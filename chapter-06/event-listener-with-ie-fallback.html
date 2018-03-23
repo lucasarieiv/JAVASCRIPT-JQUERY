@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Event Attributes</title>
+  </head>
+  <body>
+
+    <form action="index.html" method="post">
+      <label for='username'>Create a Username:</label>
+      <input type='text' id='username' onblur='checkUsername() '/>
+      <div id="feedback"></div>
+
+      <label for='password'>Create a Password: </label>
+      <input type='password' id='password' />
+
+      <input type='submit' value='Sign up!' />
+    </form>
+
+    <script type='text/javascript' src='js/event-listener-with-ie-fallback.js'></script>
+  </body>
+</html>
