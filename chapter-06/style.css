@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -48,8 +52,42 @@ body {
   color: #000;
 }
 
-
 div #feedback {
   color: #FA2E2E;
   padding: 5px 5px 5px 0px;
+}
+
+.container {
+  font-family: 'Open Sans', sans-serif;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.container ul {
+  margin-top: 250px;
+  background-color: black;
+}
+
+.container ul li {
+  margin: 0 auto;
+  list-style: none;
+  width: 500px;
+  background-color: gray;
+  font-weight: 600;
+  padding: 10px 0px 10px 10px;
+  border-bottom: 1px solid #666;
+}
+
+.container li i {
+  float: right;
+  margin-right: 10px;
+}
+
+.container ul li:last-child {
+  border: none;
+}
+
+.container li a {
+  text-decoration: none;
+  color: #fff;
 }
