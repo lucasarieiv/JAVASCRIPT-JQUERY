@@ -57,6 +57,11 @@ div #feedback {
   padding: 5px 5px 5px 0px;
 }
 
+div #wrongPass {
+  color: #FA2E2E;
+  padding: 5px 5px 5px 0px;
+}
+
 .container {
   font-family: 'Open Sans', sans-serif;
   width: 960px;
