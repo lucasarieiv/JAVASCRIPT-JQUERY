@@ -18,7 +18,7 @@ body {
   box-sizing: border-box;
 }
 
-.wrap input {
+.wrap > input {
   box-sizing: border-box;
   margin: 0 auto;
   width: 400px;
