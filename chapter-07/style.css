@@ -10,13 +10,14 @@ body {
   font-family: 'Arial', 'Verdana', sans-serif;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   margin: 40px auto;
   border-bottom: 6px solid #26d577;
   padding-bottom: 20px;
   width: 600px;
 }
+
 
 .myList {
   font-size: 28px;
@@ -40,4 +41,12 @@ h1 {
 
 .myList li:hover {
   border-bottom: 6px solid #44d241;
+}
+
+.complete {
+  border-left: 2px solid #21a315;
+}
+
+.cool {
+  border-right: 3px solid #068de3;
 }
